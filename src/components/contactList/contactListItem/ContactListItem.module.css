@@ -1,0 +1,42 @@
+.item {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.item::before {
+  content: '\260E';
+  margin-right: 10px;
+}
+
+.name {
+  margin-right: 5px;
+  width: 180px;
+}
+
+.number {
+  width: 150px;
+}
+
+.btnDel {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  border-width: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 40px;
+  font-family: Arial;
+  line-height: 40px;
+  vertical-align: middle;
+  background-color: red;
+}
+
+.btnDel:hover {
+  background-color: darkred;
+}

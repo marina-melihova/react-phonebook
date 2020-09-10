@@ -1,0 +1,17 @@
+.form {
+  width: 320px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.label:last-of-type {
+  margin-bottom: 20px;
+}
+
+.linkTxt {
+  text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: DarkSlateBlue;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #e84a5f;
+}
+
+.activeLink {
+  color: #e84a5f;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: MidnightBlue;
+  font-weight: 600;
+  margin-right: 12px;
+}
